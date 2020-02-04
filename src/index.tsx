@@ -1,8 +1,5 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import {KeepBuilder} from './components/KeepBuilder'
 
-const App: React.FunctionComponent = () => {
-  return <div>Slothbear Builder</div>;
-};
-
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<KeepBuilder />, document.getElementById('app'));
